@@ -1,0 +1,81 @@
+.body{
+    width: 100%;
+    background-color: #0a0a23;
+    color: white;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.main-body{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.checker-box{
+    margin-top: 20px;
+    padding: 30px 20px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.text{
+    vertical-align: middle;
+    text-align: center;
+}
+
+.result{
+    font-size: 16px;
+    font-weight: none;
+}
+
+.label-text{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: none;
+}
+
+.input{
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 10px;
+    border: none;
+    border-bottom: 2px solid #5a01a7;
+}
+
+.button{
+    width: 90px;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #5a01a7;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: none;
+}
+
+.info-div{
+    width: min(100vw, 450px);
+    font-size: 20px;
+    min-height: 140px;
+    background-color: #00471b;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
